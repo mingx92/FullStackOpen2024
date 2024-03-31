@@ -1,20 +1,8 @@
-# Deep Dive Into Modern Web Development - FULL STACK OPEN COURSE
+# React + Vite
 
-This repository contains source code implementation of assignments for University of Helsinki ECTS's introductory course to modern web development with React, RESTful and GraphQL web services, implemented with Node.js. https://fullstackopen.com/en/
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-There are a total of 13 chapters
+Currently, two official plugins are available:
 
-<li>Fundamentals of Web apps</li>
-<li>Introduction to React</li>
-<li>Communicating with server</li>
-<li>Programming a server with NodeJS and Express</li>
-<li>Testing Express servers, user administration</li>
-<li>Testing React apps</li>
-<li>Advanced state management</li>
-<li>React router, custom hooks, styling app with CSS and webpack</li>
-<li>GraphQL</li>
-<li>TypeScript</li>
-<li>React Native</li>
-<li>CI/CD</li>
-<li>Containers</li>
-<li>Using relational databases</li>
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
